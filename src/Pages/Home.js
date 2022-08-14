@@ -6,7 +6,7 @@ import Footer from '../Components/Footer'
 function Home() {
   return (
     <>
-      <div className='bg-black h-screen w-screen'>
+      <div className='bg-black h-screen w-screen overflow-x-hidden'>
         <Header />
         <Homesection />
         <Footer />
