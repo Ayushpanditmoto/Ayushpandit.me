@@ -6,7 +6,7 @@ function Header() {
     <header className='bg-black h-15 py-5 flex justify-evenly items-center '>
       <div className='px-2'>
         <Link to='/'>
-          <span className=' bg-gray-600 py-3 px-3 rounded-md shadow-lg hover:bg-blue-600 '>
+          <span className=' bg-gray-500 py-3 px-3 rounded-md shadow-lg hover:bg-blue-600 '>
             <span className='font-normal text-md text-white '>Home</span>
           </span>
         </Link>
