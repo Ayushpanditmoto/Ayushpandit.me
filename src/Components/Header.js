@@ -5,11 +5,11 @@ function Header() {
   return (
     <header className='bg-black h-15 py-5 flex justify-evenly items-center '>
       <div className='px-2'>
-        <a href='/'>
+        <Link to='/'>
           <h1 className='text-white text-3xl font-semibold hover:cursor-pointer'>
             Esarkari
           </h1>
-        </a>
+        </Link>
       </div>
       <div className='flex'>
         <ul className='flex space-x-3'>
