@@ -27,28 +27,28 @@ function Projects() {
               '#MongoDB',
             ]}
             link='https://play.google.com/store/apps/details?id=com.esarkari.wbjee'
-            image='https://kishans.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjumsbanner.c58cd8b0.webp&w=3840&q=75'
+            image='https://tdqmcwfqgmcuhnhupuja.supabase.co/storage/v1/object/public/example/WBJEE%20PYQ%20v2.0.0.png?t=2022-08-15T08%3A24%3A33.665Z'
           />
           <Card
             title='JU CodeForces Ranking'
             description='A web app to track the ranking of students in JU College in CodeForces. The app is built using ReactJS and ChartJs.We Using CodeForces RestApi.'
             tags={['#ReactJS', '#ChartJS', '#RestApi']}
             link='https://play.google.com/store/apps/details?id=com.esarkari.wbjee'
-            image='https://kishans.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjumsbanner.c58cd8b0.webp&w=3840&q=75'
+            image='https://tdqmcwfqgmcuhnhupuja.supabase.co/storage/v1/object/public/example/WBJEE%20PYQ%20v2.0.0.png?t=2022-08-15T08%3A24%3A33.665Z'
           />
           <Card
             title='WBJEE Previous Year v2.0.0'
             description='WBJEE Previous Year is a mobile application for WBJEE aspirants. It contains previous year question papers of WBJEE Aspirant. '
             tags={['#Flutter', '#Dart', '#Firebase', '#Supabase']}
             link='https://play.google.com/store/apps/details?id=com.esarkari.wbjee'
-            image='https://kishans.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjumsbanner.c58cd8b0.webp&w=3840&q=75'
+            image='https://tdqmcwfqgmcuhnhupuja.supabase.co/storage/v1/object/public/example/WBJEE%20PYQ%20v2.0.0.png?t=2022-08-15T08%3A24%3A33.665Z'
           />
           <Card
             title='Omegle Clone Using WebRTC'
             description='Omegle Clone Using WebRTC is a web application for chatting with random people. It uses WebRTC for video and audio chat.'
             tags={['#WEBRTC', '#Socket.io', '#Javascript']}
             link='https://play.google.com/store/apps/details?id=com.esarkari.wbjee'
-            image='https://kishans.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjumsbanner.c58cd8b0.webp&w=3840&q=75'
+            image='https://tdqmcwfqgmcuhnhupuja.supabase.co/storage/v1/object/public/example/WBJEE%20PYQ%20v2.0.0.png?t=2022-08-15T08%3A24%3A33.665Z'
           />
         </div>
       </div>
