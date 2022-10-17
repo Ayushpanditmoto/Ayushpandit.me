@@ -2,17 +2,25 @@ import React from 'react'
 import Header from '../Components/Header'
 import Homesection from '../Components/Homesection'
 import Footer from '../Components/Footer'
+import styled from 'styled-components'
 
 function Home() {
   return (
     <>
-      <div className='bg-black h-screen w-screen overflow-x-hidden'>
+      <HomeContainer>
         <Header />
         <Homesection />
         <Footer />
-      </div>
+      </HomeContainer>
     </>
   )
 }
 
 export default Home
+
+const HomeContainer = styled.div`
+  background-color: #000000;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+`

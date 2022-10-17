@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../Components/Card'
+import Footer from '../Components/Footer'
 import Header from '../Components/Header'
 
 function Projects() {
@@ -51,6 +52,7 @@ function Projects() {
             image='https://tdqmcwfqgmcuhnhupuja.supabase.co/storage/v1/object/public/example/WBJEE%20PYQ%20v2.0.0.png?t=2022-08-15T08%3A24%3A33.665Z'
           />
         </div>
+        <Footer />
       </div>
     </>
   )

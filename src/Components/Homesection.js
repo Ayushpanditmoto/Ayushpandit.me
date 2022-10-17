@@ -10,7 +10,7 @@ import styled from 'styled-components'
 function Homesection() {
   return (
     <section>
-      <div className='bg-black py-28 flex flex-col items-center justify-center'>
+      {/* <div className='bg-black py-20 flex flex-col items-center justify-center'>
         <span className='text-4xl px-5 font-semibold text-white flex justify-start'>
           Hi! I&apos;m Ayush Pandit
         </span>
@@ -29,7 +29,29 @@ function Homesection() {
           <span className='text-white text-lg py-3 bg-emerald-600 px-10 rounded-[10px] my-[4px]'>
             #NodeJS
           </span>
-        </div>
+        </div> */}
+      <HomeContainer>
+        <HomeText>
+          <span className='text-4xl px-5 font-semibold text-white flex justify-start'>
+            Hi! I&apos;m Ayush Pandit
+          </span>
+          <span className='text-white text-lg py-10 px-4'>
+            I&apos;m a self-taught developer from India. I love building cool
+            stuff for web and mobile using:
+            <span className='font-semibold'> ReactJS, NodeJS, Flutter.</span>
+          </span>
+          <HomeTags>
+            <span className='text-white text-lg py-3 bg-emerald-600 px-10 rounded-[10px] my-[4px]'>
+              #Flutter
+            </span>
+            <span className='text-white text-lg py-3 bg-emerald-600 px-10 rounded-[10px] my-[4px]'>
+              #ReactJS
+            </span>
+            <span className='text-white text-lg py-3 bg-emerald-600 px-10 rounded-[10px] my-[4px]'>
+              #NodeJS
+            </span>
+          </HomeTags>
+        </HomeText>
 
         {/* <div className='space-x-7 py-5'>
           <a href='https://github.com/Ayushpanditmoto'>
@@ -59,7 +81,7 @@ function Homesection() {
             <AssignmentIcon />
           </a>
         </LinkContainer>
-      </div>
+      </HomeContainer>
     </section>
   )
 }
@@ -88,4 +110,32 @@ const LinkContainer = styled.div`
       color: #00b4d8;
     }
   }
+`
+
+const HomeContainer = styled.div`
+  background-color: #000000;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
+
+const HomeText = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+`
+
+const HomeTags = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 `

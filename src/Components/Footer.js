@@ -4,10 +4,6 @@ import styled from 'styled-components'
 
 function Footer() {
   return (
-    // <div className='flex justify-center items-center bg-black text-white py-10'>
-    //   Made With{' '}
-    //   <FavoriteOutlined className='icons flex justify-center items-center text-red-600' />{' '}
-    // </div>
     <FooterContainer>
       <span>
         Made With

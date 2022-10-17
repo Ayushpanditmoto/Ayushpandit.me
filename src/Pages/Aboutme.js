@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Components/Header'
 import styled from 'styled-components'
 import photo from '../photo.png'
+import Footer from '../Components/Footer'
 
 function Aboutme() {
   return (
@@ -39,6 +40,7 @@ function Aboutme() {
           </p>
         </Contactme>
       </AboutmeContainer>
+      <Footer />
     </>
   )
 }
