@@ -13,11 +13,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.6"
   },
   "scripts": {
-    "predeploy":"react-scripts build && rimraf ./build/**/*.map",
-    "deploy":"gh-pages -d build",
+    "predeploy": "react-scripts build && rimraf ./build/**/*.map",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && rimraf ./build/**/*.map",
     "test": "react-scripts test",
