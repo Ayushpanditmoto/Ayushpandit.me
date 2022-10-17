@@ -28,14 +28,21 @@ function Projects() {
               '#MongoDB',
             ]}
             link='https://play.google.com/store/apps/details?id=com.esarkari.wbjee'
-            image='https://tdqmcwfqgmcuhnhupuja.supabase.co/storage/v1/object/public/example/WBJEE%20PYQ%20v2.0.0.png?t=2022-08-15T08%3A24%3A33.665Z'
+            image='https://rrevxnlwzfmzreprtolr.supabase.co/storage/v1/object/public/images/photo_2022-10-17_16-16-14.jpg'
+          />
+          <Card
+            title='Ticket Support Helpdesk'
+            description='A web app for ticket support helpdesk. The app is built using ReactJS and the backend is built using NodeJS and MongoDB.'
+            tags={['#ReactJS', '#Redux', '#NodeJS', '#MongoDB']}
+            link='https://play.google.com/store/apps/details?id=com.esarkari.wbjee'
+            image='https://rrevxnlwzfmzreprtolr.supabase.co/storage/v1/object/public/images/Screenshot_3.png'
           />
           <Card
             title='JU CodeForces Ranking'
             description='A web app to track the ranking of students in JU College in CodeForces. The app is built using ReactJS and ChartJs.We Using CodeForces RestApi.'
             tags={['#ReactJS', '#ChartJS', '#RestApi']}
             link='https://play.google.com/store/apps/details?id=com.esarkari.wbjee'
-            image='https://tdqmcwfqgmcuhnhupuja.supabase.co/storage/v1/object/public/example/WBJEE%20PYQ%20v2.0.0.png?t=2022-08-15T08%3A24%3A33.665Z'
+            image='https://rrevxnlwzfmzreprtolr.supabase.co/storage/v1/object/public/images/Screenshot_2.png'
           />
           <Card
             title='WBJEE Previous Year v2.0.0'
@@ -49,7 +56,7 @@ function Projects() {
             description='Omegle Clone Using WebRTC is a web application for chatting with random people. It uses WebRTC for video and audio chat.'
             tags={['#WEBRTC', '#Socket.io', '#Javascript']}
             link='https://play.google.com/store/apps/details?id=com.esarkari.wbjee'
-            image='https://tdqmcwfqgmcuhnhupuja.supabase.co/storage/v1/object/public/example/WBJEE%20PYQ%20v2.0.0.png?t=2022-08-15T08%3A24%3A33.665Z'
+            image='https://rrevxnlwzfmzreprtolr.supabase.co/storage/v1/object/public/images/Screenshot_5.png'
           />
         </div>
         <Footer />
