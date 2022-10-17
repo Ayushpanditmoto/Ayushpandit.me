@@ -36,8 +36,8 @@ function Homesection() {
             Hi! I&apos;m Ayush Pandit
           </span>
           <span className='text-white text-lg py-10 px-4'>
-            I&apos;m a self-taught developer from India. I love building cool
-            stuff for web and mobile using:
+            I&apos;m a Noob developer from India. I love building cool stuff for
+            web and mobile using:
             <span className='font-semibold'> ReactJS, NodeJS, Flutter.</span>
           </span>
           <HomeTags>
