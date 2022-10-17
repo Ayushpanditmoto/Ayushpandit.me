@@ -5,6 +5,7 @@ import {
   Shop as ShopIcon,
   AssignmentIndRounded as AssignmentIcon,
 } from '@mui/icons-material'
+import styled from 'styled-components'
 
 function Homesection() {
   return (
@@ -30,9 +31,9 @@ function Homesection() {
           </span>
         </div>
 
-        <div className='space-x-10 py-5'>
+        {/* <div className='space-x-7 py-5'>
           <a href='https://github.com/Ayushpanditmoto'>
-            <GitHubIcon className='text-blue-600 hover:cursor-pointer ' />
+            <GitHubIcon className='text-blue-600 text-2xl bg-white rounded-md hover:cursor-pointer ' />
           </a>
           <a href='https://www.linkedin.com/in/ayushpanditmoto/'>
             <LinkedInIcon className='text-blue-600 hover:cursor-pointer ' />
@@ -43,10 +44,48 @@ function Homesection() {
           <a href='/blogs'>
             <AssignmentIcon className='text-blue-600 hover:cursor-pointer ' />
           </a>
-        </div>
+        </div> */}
+        <LinkContainer>
+          <a href='https://github.com/Ayushpanditmoto'>
+            <GitHubIcon height='40px' />
+          </a>
+          <a href='https://www.linkedin.com/in/ayushpanditmoto/'>
+            <LinkedInIcon />
+          </a>
+          <a href='https://play.google.com/store/apps/developer?id=Ayush+Pandit'>
+            <ShopIcon />
+          </a>
+          <a href='/blogs'>
+            <AssignmentIcon />
+          </a>
+        </LinkContainer>
       </div>
     </section>
   )
 }
 
 export default Homesection
+
+const LinkContainer = styled.div`
+  display: flex;
+  padding: 10px;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  a {
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      color: #00b4d8;
+    }
+  }
+  a svg {
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    font-size: 50px;
+    &:hover {
+      color: #00b4d8;
+    }
+  }
+`
